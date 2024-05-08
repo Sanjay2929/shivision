@@ -45,7 +45,7 @@ const Navbar = () => {
             Explore More
           </button>
         </div>
-        <span className="relative z-[101]" onClick={() => setNavShow(!navShow)}>
+        <span className="relative z-[101] lg:hidden" onClick={() => setNavShow(!navShow)}>
           {navShow ? <Cross /> : <Menu />}
         </span>
       </div>
