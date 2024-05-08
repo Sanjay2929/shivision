@@ -9,7 +9,7 @@ const Navbar = () => {
   const [navShow, setNavShow] = useState(false);
   return (
     <div className="shadow-[0px_4px_20.4px_0px_#0000001F] border-b border-orange py-3 rounded-2xl">
-      <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-3 flex justify-between items-center">
+      <div className="xl:max-w-[1140px] mx-auto xl:px-0 px-3 flex justify-between items-center">
         <Link href="/">
           <Image
             width={143}
