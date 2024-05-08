@@ -25,7 +25,7 @@ const Header = () => {
             <button className="py-4 px-6 rounded-lg bg-orange font-black text-base text-white duration-500 border border-orange hover:text-orange hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]">
               Explore More
             </button>
-            <button className="py-4 px-6 rounded-lg text-opacity-80 bg-white font-black text-base text-orange duration-500 border border-orange hover:text-white hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]">
+            <button className="py-4 px-6 rounded-lg text-opacity-80 bg-white font-black text-base text-orange duration-500 border border-orange hover:text-white hover:shadow-[0px_150px_0px_-67px_rgba(245,130,32,1)_inset]">
               Learn More
             </button>
           </div>
