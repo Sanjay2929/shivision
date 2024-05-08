@@ -14,7 +14,7 @@ const Navbar = () => {
           <Image
             width={143}
             height={76}
-            className="w-[143px]"
+            className="md:w-[143px] w-[100px]"
             src="/assets/images/hero/shivision-logo.png"
             alt="shivision"
           />
