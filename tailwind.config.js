@@ -23,6 +23,7 @@ module.exports = {
       colors: {
         dark: "#161616",
         orange: "#F58220",
+        gray: "#0C0C0C",
       },
       backgroundImage: {
         bg_portfolio: "url('/assets/images/png/detail/portfolio-bg.png')",
