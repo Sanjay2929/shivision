@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="max-w-[1440px] lg:px-10 px-4">
+    <div className="max-w-[1440px] lg:px-10 px-4 mx-auto">
       <div className="bg-contact sm:py-[100px] py-[70px] rounded-2xl flex flex-col items-center bg-cover bg-center px-4">
         <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-white font-bold leading_[120%] text-center">
           Connect with us now
