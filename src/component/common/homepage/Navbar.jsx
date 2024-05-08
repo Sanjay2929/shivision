@@ -6,7 +6,7 @@ import { navLinks } from "../Helper";
 import { Cross, Menu } from "../Icons";
 
 const Navbar = () => {
-  const [navShow, setNavShow] = useState("false");
+  const [navShow, setNavShow] = useState(false);
   return (
     <div className="shadow-[0px_4px_20.4px_0px_#0000001F] border-b border-orange py-3 rounded-2xl">
       <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-3 flex justify-between items-center">
@@ -45,7 +45,10 @@ const Navbar = () => {
             Explore More
           </button>
         </div>
-        <span className="relative z-[101] lg:hidden" onClick={() => setNavShow(!navShow)}>
+        <span
+          className="relative z-[101] lg:hidden cursor-pointer"
+          onClick={() => setNavShow(!navShow)}
+        >
           {navShow ? <Cross /> : <Menu />}
         </span>
       </div>

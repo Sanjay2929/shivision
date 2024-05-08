@@ -27,6 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         bg_portfolio: "url('/assets/images/png/detail/portfolio-bg.png')",
+        hero: "url('/assets/images/hero/doctor.png')",
       },
       boxShadow: {
         aboutLeftImageShadow: "-20px 20px 0px 0px #FF7500 ",
