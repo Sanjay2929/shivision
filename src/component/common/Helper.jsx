@@ -1,4 +1,4 @@
-import { Facebook, LinkedIn } from "./Icons";
+import { Facebook, Instagram, LinkedIn, Xtwitter } from "./Icons";
 
 export const BrandsData = [
   {
@@ -141,5 +141,67 @@ export const blogs = [
     linkedinicon: <LinkedIn />,
     facebooklink: "https://www.facebook.com/",
     linkedinlink: "https://www.linkedin.com/",
+  },
+];
+
+// FOOTER  SOCIAL LINKS
+export const socialLinks = [
+  {
+    icon: <Facebook />,
+    url: "/",
+  },
+  {
+    icon: <Xtwitter />,
+    url: "/",
+  },
+  {
+    icon: <LinkedIn />,
+    url: "/",
+  },
+  {
+    icon: <Instagram />,
+    url: "/",
+  },
+];
+
+// FOOTER LINKS
+export const footerLinks = [
+  {
+    heading: "Quick links",
+    link: [
+      {
+        title: "About Us",
+        url: "/",
+      },
+      {
+        title: "Products",
+        url: "/",
+      },
+      {
+        title: "Services",
+        url: "/",
+      },
+      {
+        title: "Testimonials",
+        url: "/",
+      },
+      {
+        title: "Blogs",
+        url: "/",
+      },
+    ],
+  },
+  {
+    heading: "Links",
+    link: [
+      {
+        title: "Terms and Conditions",
+        url: "/",
+      },
+      {
+        title: "Privacy  Policy",
+        url: "/",
+      },
+    ],
   },
 ];
