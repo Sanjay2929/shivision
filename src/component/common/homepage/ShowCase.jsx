@@ -4,7 +4,7 @@ import { showCaseProduct } from "../Helper";
 
 const ShowCase = () => {
   return (
-    <div className="max-w-[1140px] px-4 xl:px-0 mx-auto pb-[200px] pt-[152px]">
+    <div className="max-w-[1140px] px-4 xl:px-0 mx-auto xl:pb-[200px] xl:pt-[152px] py-[120px]">
       <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold leading_[120%] max-w-[605px] mx-auto text-center">
         Showcase our Products
       </h2>
@@ -13,11 +13,14 @@ const ShowCase = () => {
         morbi. Quis sit aliquam viverra in donec in tortor. Libero odio
         scelerisque adipiscing
       </p>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap gap-y-6">
         {showCaseProduct.map((content, index) => {
           return (
-            <div className=" w-3/12 px-3" key={index}>
-              <div className=" border border-[#CCCCCC] bg-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgba(245,130,32,1)] rounded-2xl max-w-[267px] max-h-[244px] mb-4">
+            <div
+              className=" lg:w-3/12 md:w-4/12 sm:w-6/12 w-full sm:px-3 sm:max-w-full max-w-[343px] sm:mx-0 mx-auto"
+              key={index}
+            >
+              <div className=" md:border border-[#CCCCCC] bg-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgba(245,130,32,1)] rounded-2xl md:max-w-[267px] md:max-h-[244px] mb-4">
                 <Image
                   width={267}
                   height={244}
