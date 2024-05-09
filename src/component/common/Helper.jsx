@@ -205,3 +205,56 @@ export const footerLinks = [
     ],
   },
 ];
+
+// HERO CARDS
+export const heroCards = [
+  {
+    bgImage: "bg-hero",
+    heading: (
+      <>
+        Optimizing Animal{" "}
+        <span className="text-orange"> Health & Performance</span> Sustainable
+        Solutions
+      </>
+    ),
+    description: (
+      <>
+        At <span className="font-medium">SHIVISION</span>, we&apos;re committed
+        to enhancing global animal health sustainably. We prioritize innovation
+        and ethical practices, offering effective, eco-friendly products and
+        services. Join us to improve your animals&apos; well-being and
+        contribute to a healthier planet.
+      </>
+    ),
+  },
+  {
+    bgImage: "bg-sheepMilk",
+    heading: (
+      <>
+        Lorem ipsum dolor <span className="text-orange block"> sit amet</span>{" "}
+      </>
+    ),
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Quam faucibus convallis ipsum tincidunt mi tristique sed. Ipsum scelerisque venenatis velit nec consectetur. Ullamcorper et netus sagittis.",
+  },
+  {
+    bgImage: "bg-cows",
+    heading: (
+      <>
+        Lorem ipsum dolor <span className="text-orange block"> sit amet</span>{" "}
+      </>
+    ),
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Quam faucibus convallis ipsum tincidunt mi tristique sed. Ipsum scelerisque venenatis velit nec consectetur. Ullamcorper et netus sagittis.",
+  },
+  {
+    bgImage: "bg-twoCows",
+    heading: (
+      <>
+        Lorem ipsum dolor <span className="text-orange block"> sit amet</span>{" "}
+      </>
+    ),
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Quam faucibus convallis ipsum tincidunt mi tristique sed. Ipsum scelerisque venenatis velit nec consectetur. Ullamcorper et netus sagittis.",
+  },
+];

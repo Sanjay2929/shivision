@@ -33,6 +33,9 @@ module.exports = {
       backgroundImage: {
         bg_portfolio: "url('/assets/images/png/detail/portfolio-bg.png')",
         hero: "url('/assets/images/hero/doctor.png')",
+        sheepMilk: "url('/assets/images/hero/sheep-milk.png')",
+        cows: "url('/assets/images/hero/cows.png')",
+        twoCows: "url('/assets/images/hero/two-cows.png')",
         contact: "url('/assets/images/contact/contact-orange.png')",
         black_linear_line:
           "linear-gradient(180deg, #FFFFFF 0%, #000000 49.55%, #FFFFFF 100%)",
