@@ -69,6 +69,29 @@ export const animals = [
     url: "",
   },
 ];
+export const showCaseProduct = [
+  {
+    img: "/assets/images/show-case/product-1.png",
+    description: "Lorem ipsum dolor sit amet",
+    price: "10.12",
+  },
+  {
+    img: "/assets/images/show-case/product-2.png",
+    description: "Lorem ipsum dolor sit amet",
+    price: "10.12",
+  },
+  {
+    img: "/assets/images/show-case/product-3.png",
+    description: "Lorem ipsum dolor sit amet",
+    price: "10.12",
+  },
+  {
+    img: "/assets/images/show-case/product-4.png",
+    description: "Lorem ipsum dolor sit amet",
+    price: "10.12",
+  },
+];
+
 export const blogs = [
   {
     img: "/assets/images/blogs/blog-img-1.png",
@@ -90,7 +113,8 @@ export const blogs = [
     img: "/assets/images/blogs/blog-img-1.png",
     viewbutton: "View Option",
     date: "10-March-2024",
-    heading: "Understanding Common Pet Health Issues: Signs, Symptoms, and Solutions",
+    heading:
+      "Understanding Common Pet Health Issues: Signs, Symptoms, and Solutions",
     description:
       "In this informative blog post, we shed light on some of the most common health issues affecting our beloved pets. From dental problems.... ",
     readmore: "READ MORE",
