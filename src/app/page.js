@@ -4,6 +4,7 @@ import About from "@/component/common/homepage/About";
 import AnimalHealth from "@/component/common/homepage/AnimalHealth";
 import ContactUs from "@/component/common/homepage/ContactUs";
 import JoinUs from "@/component/common/homepage/JoinUs";
+import ShowCase from "../component/common/homepage/ShowCase";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <AnimalHealth />
       <JoinUs />
       <ContactUs />
+      <ShowCase />
     </>
   );
 }

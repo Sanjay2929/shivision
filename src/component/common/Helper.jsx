@@ -67,3 +67,25 @@ export const animals = [
     url: "",
   },
 ];
+export const showCaseProduct = [
+  {
+    img: "/assets/images/show-case/product-1.png",
+    description: "Lorem ipsum dolor sit amet",
+    price: "10.12",
+  },
+  {
+    img: "/assets/images/show-case/product-2.png",
+    description: "Lorem ipsum dolor sit amet",
+    price: "10.12",
+  },
+  {
+    img: "/assets/images/show-case/product-3.png",
+    description: "Lorem ipsum dolor sit amet",
+    price: "10.12",
+  },
+  {
+    img: "/assets/images/show-case/product-4.png",
+    description: "Lorem ipsum dolor sit amet",
+    price: "10.12",
+  },
+];
