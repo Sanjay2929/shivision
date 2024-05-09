@@ -25,11 +25,19 @@ module.exports = {
         orange: "#F58220",
         gray: "#0C0C0C",
         darkGray: "#404041",
+        silversand: "#C2C2C2",
+        stardust: "#9F9F9F",
+        darkblack: "#000700",
+        fuscousgray: "#4D524D",
       },
       backgroundImage: {
         bg_portfolio: "url('/assets/images/png/detail/portfolio-bg.png')",
         hero: "url('/assets/images/hero/doctor.png')",
         contact: "url('/assets/images/contact/contact-orange.png')",
+        black_linear_line:
+          "linear-gradient(180deg, #FFFFFF 0%, #000000 49.55%, #FFFFFF 100%)",
+        linear_blog_bottom:
+          "linear-gradient(90deg, #FFFFFF 0%, #000000 50.07%, #FFFFFF 100%)",
       },
       boxShadow: {
         aboutLeftImageShadow: "-20px 20px 0px 0px #FF7500 ",
@@ -37,6 +45,7 @@ module.exports = {
         aboutRightImageShadow: "20px 20px 0px 0px #FF7500 ",
         aboutSmRightImageShadow: "15px 15px 0px 0px #FF7500 ",
         animalcards: " 0px 0px 25px 0px #0000001A",
+        blogcards: "10px 10px 0px 0px #FF7500",
       },
     },
   },
