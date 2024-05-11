@@ -1,4 +1,4 @@
-import { Facebook, Instagram, LinkedIn, Xtwitter } from "./Icons";
+import { Facebook, FiveStars, Instagram, LinkedIn, Xtwitter } from "./Icons";
 
 export const BrandsData = [
   {
@@ -283,5 +283,15 @@ export const heroCards = [
         contribute to a healthier planet.
       </>
     ),
+  },
+];
+// TESTIMONIALS DATA
+export const testimonialsList = [
+  {
+    stars: <FiveStars/> ,
+    description:
+      "At Shivision, based in Adampur, Gujarat, we conducted a trial of ACpH for subclinical mastitis, and the results were exceptionally effective. ACpH proved to be instrumental in significantly reducing somatic cell count, demonstrating its remarkable efficacy in combating mastitis.",
+    userName: "Jane Smith",
+    subName: "Nurse Practitioner",
   },
 ];

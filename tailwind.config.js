@@ -47,6 +47,8 @@ module.exports = {
         aboutSmLeftImageShadow: "-15px 15px 0px 0px #FF7500 ",
         aboutRightImageShadow: "20px 20px 0px 0px #FF7500 ",
         aboutSmRightImageShadow: "15px 15px 0px 0px #FF7500 ",
+        orangeLeftImageShadow: "-20px 20px 0px 0px #FF7500 ",
+        orangeSmLeftImageShadow: "-15px 15px 0px 0px #FF7500 ",
         animalcards: " 0px 0px 25px 0px #0000001A",
         blogcards: "10px 10px 0px 0px #FF7500",
         footerTop: "0px -8px 145.2px 0px #0000002E",
