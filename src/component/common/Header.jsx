@@ -12,7 +12,7 @@ import "swiper/css/effect-fade";
 
 const Header = () => {
   return (
-    <div className="xl:max-w-[1440px] xl:px-10 px-4 sm:pt-10  pt-6 mx-auto lg:pb-[110px] pb-[60px] hero">
+    <div className="xl:max-w-[1440px] xl:px-10 px-4 sm:pt-10  pt-6 mx-auto lg:pb-[110px] pb-[60px] hero relative z-10">
       <Navbar />
       <Swiper
         modules={[Pagination, EffectFade, Autoplay]}
@@ -35,7 +35,7 @@ const Header = () => {
                   <h1 className="font-black md:text-5xl text-[32px] text-black max-w-[560px] leading-[120%] md:text-start text-center md:ms-0 mx-auto">
                     {value.heading}
                   </h1>
-                  <p className="max-w-[560px] text-black opacity-80 md:text-start text-center font-normal text-base pt-2.5 md:ms-0 mx-auto">
+                  <p className="max-w-[560px] text-black md:opacity-80 opacity-100 md:text-start text-center font-normal text-base pt-2.5 md:ms-0 mx-auto">
                     {value.description}
                   </p>
                   <div className="flex gap-4 pt-7 md:justify-start justify-center">
@@ -50,7 +50,7 @@ const Header = () => {
                 <Image
                   width={1380}
                   height={600}
-                  className="absolute top-1/2 -translate-y-1/2 left-0 z-0 h-full object-cover"
+                  className="absolute top-1/2 object-left opacity-45 md:opacity-100 -translate-y-1/2 left-0 z-0 h-full object-cover"
                   src="/assets/images/hero/white_layer.png"
                   alt="layer"
                 />

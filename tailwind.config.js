@@ -32,10 +32,10 @@ module.exports = {
       },
       backgroundImage: {
         bg_portfolio: "url('/assets/images/png/detail/portfolio-bg.png')",
-        hero: "url('/assets/images/hero/doctor.png')",
-        sheepMilk: "url('/assets/images/hero/sheep-milk.png')",
-        cows: "url('/assets/images/hero/cows.png')",
-        twoCows: "url('/assets/images/hero/two-cows.png')",
+        hero: "url('/assets/images/hero/doctor.webp')",
+        sheepMilk: "url('/assets/images/hero/sheep-milk.webp')",
+        cows: "url('/assets/images/hero/cows.webp')",
+        twoCows: "url('/assets/images/hero/two-cows.webp')",
         contact: "url('/assets/images/contact/contact-orange.png')",
         black_linear_line:
           "linear-gradient(180deg, #FFFFFF 0%, #000000 49.55%, #FFFFFF 100%)",
@@ -50,6 +50,7 @@ module.exports = {
         animalcards: " 0px 0px 25px 0px #0000001A",
         blogcards: "10px 10px 0px 0px #FF7500",
         footerTop: "0px -8px 145.2px 0px #0000002E",
+        darkCards:"6px 6px 0px 0px #323232"
       },
     },
   },
