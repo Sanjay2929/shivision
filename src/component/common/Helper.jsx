@@ -148,19 +148,19 @@ export const blogs = [
 export const socialLinks = [
   {
     icon: <Facebook />,
-    url: "/",
+    url: "https://www.facebook.com/",
   },
   {
     icon: <Xtwitter />,
-    url: "/",
+    url: "https://www.twitter.com/",
   },
   {
     icon: <LinkedIn />,
-    url: "/",
+    url: "https://www.linkedin.com/",
   },
   {
     icon: <Instagram />,
-    url: "/",
+    url: "https://www.instagram.com/",
   },
 ];
 

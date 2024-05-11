@@ -12,7 +12,7 @@ import "swiper/css/effect-fade";
 
 const Header = () => {
   return (
-    <div className="xl:max-w-[1440px] xl:px-10 px-4 sm:pt-10  pt-6 mx-auto lg:pb-[110px] pb-[60px] hero relative z-10">
+    <div className="xl:max-w-[1440px] xl:px-10 px-4 sm:pt-10  pt-6 mx-auto lg:pb-[110px] pb-[60px] hero relative z-50">
       <Navbar />
       <Swiper
         modules={[Pagination, EffectFade, Autoplay]}
