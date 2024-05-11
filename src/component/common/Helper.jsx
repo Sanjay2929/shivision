@@ -68,23 +68,27 @@ export const animals = [
 export const showCaseProduct = [
   {
     img: "/assets/images/show-case/product-1.png",
-    description: "Lorem ipsum dolor sit amet",
-    price: "10.12",
+    description: "FiberAid Plus [ 75gm ]",
   },
   {
     img: "/assets/images/show-case/product-2.png",
-    description: "Lorem ipsum dolor sit amet",
-    price: "10.12",
+    description: "Lacmin [ 1kg,5kg,20kg ]",
   },
   {
     img: "/assets/images/show-case/product-3.png",
-    description: "Lorem ipsum dolor sit amet",
-    price: "10.12",
+    description: "Lacvit H [ 500ml , 1litter ]",
   },
   {
     img: "/assets/images/show-case/product-4.png",
-    description: "Lorem ipsum dolor sit amet",
-    price: "10.12",
+    description: "Chelated Lacmilk  [ 5litter 20litter ]",
+  },
+  {
+    img: "/assets/images/show-case/product-5.png",
+    description: "Calf m-29 [ 500ml 5litter ]",
+  },
+  {
+    img: "/assets/images/show-case/product-6.png",
+    description: "Lacmilk advance gel [ 300ml ] ",
   },
 ];
 

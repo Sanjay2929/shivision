@@ -13,14 +13,11 @@ const ShowCase = () => {
         morbi. Quis sit aliquam viverra in donec in tortor. Libero odio
         scelerisque adipiscing
       </p>
-      <div className="flex flex-wrap gap-y-6">
+      <div className="grid md:grid-cols-3 grid-cols-2 lg:gap-10 sm:gap-6 gap-3 max-[500px]:grid-cols-1 md:gap-y-10 gap-y-8">
         {showCaseProduct.map((content, index) => {
           return (
-            <div
-              className=" lg:w-3/12 md:w-4/12 sm:w-6/12 w-full sm:px-3 sm:max-w-full max-w-[343px] sm:mx-0 mx-auto"
-              key={index}
-            >
-              <div className=" md:border border-[#CCCCCC] bg-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgba(245,130,32,1)] rounded-2xl md:max-w-[267px] md:max-h-[244px] mb-4">
+            <div className="sm:mx-0 mx-auto group flex flex-col items-start max-[500px]:items-center" key={index}>
+              <div className="border border-[#CCCCCC] bg-white transition-all duration-300 ease-in-out group-hover:shadow-lg overflow-hidden group-hover:shadow-[rgba(245,130,32,1)] rounded-2xl mb-3">
                 <Image
                   width={267}
                   height={244}
@@ -29,20 +26,20 @@ const ShowCase = () => {
                   className=" w-full"
                 />
               </div>
-              <p className=" font-normal text-base text-dark mb-5">
+              <p className=" font-bold text-base text-orange mb-4">
                 {content.description}
               </p>
-              <div className=" flex items-center justify-between">
-                <p className="font-medium text-base text-dark">
-                  From ${content.price}
-                </p>
-                <span className=" px-4 py-1 border border-[#A4A4A4] rounded font-medium text-sm text-black cursor-pointer flex items-center justify-center hover:shadow-[0px_150px_0px_-67px_rgba(245,130,32,1)_inset] hover:text-white hover:border-white transition-all ease-in-out duration-300">
-                  View Option
-                </span>
-              </div>
+              <button className="py-1.5 px-3.5 border border-orange rounded-md opacity-70 hover:opacity-100 duration-500 hover:text-white hover:shadow-btnHover text-orange">
+                Buy Now
+              </button>
             </div>
           );
         })}
+      </div>
+      <div className="flex justify-center pt-10">
+        <button className="py-4 px-6 border font-black  border-orange rounded-lg duration-500 hover:text-white hover:shadow-btnHover text-orange">
+          View All Products
+        </button>
       </div>
     </div>
   );
