@@ -12,7 +12,7 @@ import "./styles.css";
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
-import { galleryList } from "../Helper";
+import { galleryThumbsList, gallerySetThumbsList } from "../Helper";
 import Image from "next/image";
 
 const Gallery = () => {
@@ -30,11 +30,12 @@ const Gallery = () => {
         modules={[FreeMode, Navigation, Thumbs]}
         className="mySwiper2"
       >
-        {galleryList.map((obj, index) => {
+        {galleryThumbsList.map((obj, index) => {
           return (
             <SwiperSlide key={index}>
-              <Image className="w-full"
-                width={1140} 
+              <Image
+                className="w-full"
+                width={1140}
                 height={558}
                 src={obj.img}
                 alt="gallery images"
@@ -52,36 +53,19 @@ const Gallery = () => {
         modules={[FreeMode, Navigation, Thumbs]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-        </SwiperSlide>
+        {gallerySetThumbsList.map((obj, index) => {
+          return (
+            <SwiperSlide key={index}>
+              <Image
+                className="w-full"
+                width={1140}
+                height={558}
+                src={obj.img}
+                alt="gallery images"
+              />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </>
   );
