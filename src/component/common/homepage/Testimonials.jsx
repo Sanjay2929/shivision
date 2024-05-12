@@ -6,7 +6,7 @@ import { Pagination,Autoplay } from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <div className="xl:max-w-[1440px] mx-auto testimonials">
+    <div className="xl:max-w-[1140px] mx-auto testimonials">
       <Swiper
         modules={[Pagination,Autoplay]}
         loop={true}
