@@ -12,7 +12,7 @@ import "swiper/css/effect-fade";
 
 const Header = () => {
   return (
-    <div className="xl:max-w-[1140px] xl:px-10 px-4 sm:pt-10  pt-6 mx-auto lg:pb-[110px] pb-[60px] hero relative z-50">
+    <div className="xl:max-w-[1440px] xl:px-10 px-4 sm:pt-10  pt-6 mx-auto lg:pb-[110px] pb-[60px] hero relative z-50">
       <Navbar />
       <Swiper
         modules={[Pagination, EffectFade, Autoplay]}
@@ -31,7 +31,7 @@ const Header = () => {
               <div
                 className={`swiper-slide-content sm:h-[calc(100vh-181px)] bg-cover sm:max-h-[600px] h-[600px] sm:mt-10 mt-6 bg-[80%] lg:rounded-[40px] rounded-2xl sm:pt-[135px] pt-0 pb-0 overflow-hidden flex items-center relative  ${value.bgImage}`}
               >
-                <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-4 relative z-10">
+                <div className="xl:max-w-[1440px] container mx-auto xl:px-0 px-4 relative z-10">
                   <h1 className="font-black md:text-5xl text-[32px] text-black max-w-[560px] leading-[120%] md:text-start text-center md:ms-0 mx-auto">
                     {value.heading}
                   </h1>
