@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="px-4 xl:px-0 relative z-10 my-16 sm:my-20 md:my-[100px] xl:my-40">
+    <div id="about" className="px-4 xl:px-0 relative z-10 my-16 sm:my-20 md:my-[100px] xl:my-40">
       <div className="max-w-[1140px] mx-auto">
         <div className="grid md:grid-cols-2 items-center md:justify-between text-center md:text-start justify-center gap-10 lg:gap-20 xl:gap-[115px]">
           <div className="ps-4 sm:ps-5">

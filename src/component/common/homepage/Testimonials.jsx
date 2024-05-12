@@ -6,7 +6,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <div className="xl:max-w-[1140px] mx-auto testimonials my-16 sm:my-20 md:my-[100px] xl:my-40">
+    <div id="testimonials" className="xl:max-w-[1140px] mx-auto testimonials my-16 sm:my-20 md:my-[100px] xl:my-40">
       <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold xl:!leading-[40px] text-center">
         Testimonials
       </h2>
