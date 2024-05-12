@@ -23,14 +23,14 @@ const BackToTop = () => {
     <>
       <div>
         <div
-          className={` transition-all duration-300 z-50 fixed right-5 bottom-5 sm:bottom-16 lg:bottom-20 sm:right-4 custom-2xl:bottom-5 cursor-pointer`}
+          className={` transition-all duration-300 z-50 fixed bottom-2 right-2 cursor-pointer`}
           onClick={scrollTop}
           style={{ display: showScroll ? "flex" : "none" }}
         >
           <div
-            className={`group border outline-none flex items-center bg-primary border-white justify-center hover:bg-transparent group sm:w-12 sm:h-12 w-10 h-10 transition-all duration-300 rounded-full hover:shadow-backToTopShadow hover:shadow-primary `}
+            className={`group border outline-none flex items-center bg-primary border-white justify-center hover:bg-transparent group sm:w-11 sm:h-11 w-10 h-10 transition-all duration-300 rounded-full hover:shadow-backToTopShadow hover:shadow-primary `}
           >
-            <BackToTopIcon className="w-5 h-5" />
+            <BackToTopIcon className="w-4 h-4" />
           </div>
         </div>
       </div>
