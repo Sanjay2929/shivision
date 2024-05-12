@@ -16,7 +16,7 @@ const ShowCase = () => {
       <div className="grid md:grid-cols-3 grid-cols-2 lg:gap-10 sm:gap-6 gap-3 max-[500px]:grid-cols-1 md:gap-y-10 gap-y-8">
         {showCaseProduct.map((content, index) => {
           return (
-            <div className="sm:mx-0 mx-auto group flex flex-col items-start max-[500px]:items-center" key={index}>
+            <div className="sm:mx-0 mx-auto group max-[500px]:flex flex-col items-start max-[500px]:items-center" key={index}>
               <div className="border border-[#CCCCCC] bg-white transition-all duration-300 ease-in-out group-hover:shadow-lg overflow-hidden group-hover:shadow-[rgba(245,130,32,1)] rounded-2xl mb-3">
                 <Image
                   width={267}
