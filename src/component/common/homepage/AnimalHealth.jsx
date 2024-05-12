@@ -14,7 +14,7 @@ const AnimalHealth = () => {
           solutions prioritize their health and happiness. Trust us for
           tailored, research-backed care.&quot;
         </p>
-        <div className="lg:pt-20 sm:pt-14 pt-6 grid md:grid-cols-3 grid-cols-2 max-[450px]:grid-cols-1 gap-x-5 gap-y-[44px]">
+        <div className="lg:pt-20 sm:pt-14 pt-6 grid md:grid-cols-3 grid-cols-2 max-[450px]:grid-cols-1 gap-x-5 md:gap-y-[44px] gap-y-5">
           {animals.map((value, index) => {
             return (
               <div
