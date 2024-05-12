@@ -16,19 +16,19 @@ export const BrandsData = [
 export const navLinks = [
   {
     title: "About Us",
-    url: "/",
+    url: "#about",
   },
   {
     title: "Products",
-    url: "/",
+    url: "#products",
   },
   {
     title: "Services",
-    url: "/",
+    url: "#services",
   },
   {
     title: "Blogs",
-    url: "/",
+    url: "#blogs",
   },
 ];
 
@@ -171,36 +171,36 @@ export const footerLinks = [
     link: [
       {
         title: "About Us",
-        url: "/",
+        url: "#about",
       },
       {
         title: "Products",
-        url: "/",
+        url: "#products",
       },
       {
         title: "Services",
-        url: "/",
+        url: "#services",
       },
       {
         title: "Testimonials",
-        url: "/",
+        url: "#testimonials",
       },
       {
         title: "Blogs",
-        url: "/",
+        url: "#blogs",
       },
     ],
-  },
+  },  
   {
     heading: "Links",
     link: [
       {
         title: "Terms and Conditions",
-        url: "/",
+        url: "#",
       },
       {
         title: "Privacy  Policy",
-        url: "/",
+        url: "#",
       },
     ],
   },

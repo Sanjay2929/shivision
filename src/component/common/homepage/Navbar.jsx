@@ -47,7 +47,7 @@ const Navbar = () => {
               );
             })}
           </div>
-          <button
+          <Link href="#contact"
             onClick={() => {
               setNavShow(false);
               scrollRemoveHandler();
@@ -55,7 +55,7 @@ const Navbar = () => {
             className="py-4 px-6 rounded-lg bg-orange font-black text-base text-white duration-500 border border-orange hover:text-orange hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]"
           >
             Call Us Now
-          </button>
+          </Link>
         </div>
         <span
           className="relative z-[101] lg:hidden cursor-pointer"

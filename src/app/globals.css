@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  scroll-behavior: smooth;
+}
 .swiper-pagination-bullet {
   background: #d9d9d9 !important;
   width: 14px !important;
   height: 14px !important;
+  opacity: 100% !important;
 }
 .swiper-pagination-bullet-active {
   background: #f58220 !important;

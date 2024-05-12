@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const LatestBlogs = () => {
   return (
-    <div className="py-48">
+    <div id="blogs" className="py-48">
       <div className="max-w-[1210px] px-4 xl:px-0 mx-auto">
         <h2 className="text-center text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold leading_[120%]">
           Latest Blogs
@@ -73,7 +73,7 @@ const LatestBlogs = () => {
           ))}
         </div>
         <div className="mt-12 flex justify-center">
-          <button className="border border-orange rounded-lg hover:border-transparent hover:bg-orange hover:text-white transition-all duration-300 ease-in-out text-orange px-6 py-4">
+          <button className="py-4 px-6 border font-black  border-orange rounded-lg duration-500 hover:text-white hover:shadow-btnHover text-orange">
             View All Blogs
           </button>
         </div>
