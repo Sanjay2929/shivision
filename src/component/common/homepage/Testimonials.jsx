@@ -43,7 +43,7 @@ const Testimonials = () => {
         {testimonialsList.map((obj, index) => {
           return (
             <SwiperSlide key={index} className="swiper-slide my-4 min-h-full">
-              <div className="bg-white border border-darkGray rounded-2xl p-6 min-h-[370px] lg:min-h-[346px] xl:min-h-[300px] 2xl:min-h-[325px] sm:hover:shadow-testimonialsRightImageShadow hover:shadow-testimonialsSmRightImageShadow duration-200">
+              <div className="bg-white border border-darkGray rounded-2xl p-6 min-h-[370px] lg:min-h-[346px] xl:min-h-[300px] 2xl:min-h-[370px] sm:hover:shadow-testimonialsRightImageShadow hover:shadow-testimonialsSmRightImageShadow duration-200">
                 <span>{obj.stars}</span>
                 <p className="text-dark text-opacity-70 my-3 font-normal !leading-6 text-sm sm:text-base">
                   {obj.description}
