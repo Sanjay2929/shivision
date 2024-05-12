@@ -4,7 +4,7 @@ import { showCaseProduct } from "../Helper";
 
 const ShowCase = () => {
   return (
-    <div className="max-w-[1440px] px-4 xl:px-0 mx-auto pt-[100px]">
+    <div className="max-w-[905px] px-4 xl:px-0 mx-auto pt-[100px]">
       <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold leading_[120%] max-w-[605px] mx-auto text-center">
         Showcase our Products
       </h2>
@@ -16,7 +16,7 @@ const ShowCase = () => {
       <div className="grid md:grid-cols-3 grid-cols-2 lg:gap-10 sm:gap-6 gap-3 max-[500px]:grid-cols-1 md:gap-y-10 gap-y-8">
         {showCaseProduct.map((content, index) => {
           return (
-            <div className="sm:mx-0 mx-auto group flex flex-col items-start max-[500px]:items-center" key={index}>
+            <div className="sm:mx-0 mx-auto group max-[500px]:flex flex-col items-start max-[500px]:items-center" key={index}>
               <div className="border border-[#CCCCCC] bg-white transition-all duration-300 ease-in-out group-hover:shadow-lg overflow-hidden group-hover:shadow-[rgba(245,130,32,1)] rounded-2xl mb-3">
                 <Image
                   width={267}

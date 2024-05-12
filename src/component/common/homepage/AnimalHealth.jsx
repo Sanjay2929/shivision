@@ -31,7 +31,6 @@ const AnimalHealth = () => {
                   />
                 </div>
                 <button className="w-full text-center py-6 bg-orange text-white font-bold lg:text-2xl sm:text-xl text-lg border-t border-orange hover:text-orange duration-500 hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset] mb-[-1px]">
-                  {" "}
                   {value.title}
                 </button>
               </div>
