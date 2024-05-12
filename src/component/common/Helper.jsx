@@ -1,4 +1,4 @@
-import { Facebook, Instagram, LinkedIn, Xtwitter } from "./Icons";
+import { Facebook, FiveStars, Instagram, LinkedIn, Xtwitter } from "./Icons";
 
 export const BrandsData = [
   {
@@ -283,5 +283,64 @@ export const heroCards = [
         contribute to a healthier planet.
       </>
     ),
+  },
+];
+// TESTIMONIALS DATA
+export const testimonialsList = [
+  {
+    stars: <FiveStars />,
+    description:
+      "At Shivision, based in Adampur, Gujarat, we conducted a trial of ACpH for subclinical mastitis, and the results were exceptionally effective. ACpH proved to be instrumental in significantly reducing somatic cell count, demonstrating its remarkable efficacy in combating mastitis.",
+    userName: "Jane Smith",
+    subName: "Nurse Practitioner",
+  },
+  {
+    stars: <FiveStars />,
+    description:
+      "Our experience at SHIVISION has been nothing short of amazing. The veterinarians and staff are not only highly skilled professionals but also genuinely caring individuals who go above and beyond for their furry patients. I trust them implicitly with the health and well-being of my pets.",
+    userName: "Sumit",
+    subName: "Pet owner",
+  },
+  {
+    stars: <FiveStars />,
+    description:
+      "I'm incredibly grateful to the team at SHIVISION for their prompt and thorough care of my sick pet. Their expertise and dedication were evident from the moment we walked in. Thanks to their timely intervention and treatment, my pet is now back to his happy, healthy self.",
+    userName: "Mukesh",
+    subName: "Pet owner",
+  },
+  {
+    stars: <FiveStars />,
+    description:
+    "As a breeder, finding a reliable veterinary partner is crucial for the success of my business. I've been working with SHIVISION for years, and their commitment to the health and welfare of my animals is unmatched. Their knowledge and professionalism make them my go-to choice for all veterinary needs.",
+    userName: "Naresh jain",
+    subName: "breeder",
+  },
+  {
+    stars: <FiveStars />,
+    description:
+      "At Shivision, based in Adampur, Gujarat, we conducted a trial of ACpH for subclinical mastitis, and the results were exceptionally effective. ACpH proved to be instrumental in significantly reducing somatic cell count, demonstrating its remarkable efficacy in combating mastitis.",
+    userName: "Jane Smith",
+    subName: "Nurse Practitioner",
+  },
+  {
+    stars: <FiveStars />,
+    description:
+      "Our experience at SHIVISION has been nothing short of amazing. The veterinarians and staff are not only highly skilled professionals but also genuinely caring individuals who go above and beyond for their furry patients. I trust them implicitly with the health and well-being of my pets.",
+    userName: "Sumit",
+    subName: "Pet owner",
+  },
+  {
+    stars: <FiveStars />,
+    description:
+      "I'm incredibly grateful to the team at SHIVISION for their prompt and thorough care of my sick pet. Their expertise and dedication were evident from the moment we walked in. Thanks to their timely intervention and treatment, my pet is now back to his happy, healthy self.",
+    userName: "Mukesh",
+    subName: "Pet owner",
+  },
+  {
+    stars: <FiveStars />,
+    description:
+    "As a breeder, finding a reliable veterinary partner is crucial for the success of my business. I've been working with SHIVISION for years, and their commitment to the health and welfare of my animals is unmatched. Their knowledge and professionalism make them my go-to choice for all veterinary needs.",
+    userName: "Naresh jain",
+    subName: "breeder",
   },
 ];

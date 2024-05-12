@@ -4,7 +4,7 @@ import Image from "next/image";
 const JoinUs = () => {
   return (
     <div className="px-5 xl:px-0 py-8 md:py-16 lg:py-20">
-      <div className="max-w-[1140px] mx-auto">
+      <div className="max-w-[1440px] mx-auto">
         <div className="grid md:grid-cols-2 items-center md:justify-between text-center md:text-start justify-center gap-10 lg:gap-20 xl:gap-[115px]">
           <div className="max-w-[550px] md:max-w-none mt-3 sm:mt-6 order-2 md:order-1 md:mt-0">
             <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold xl:!leading-[40px]">
