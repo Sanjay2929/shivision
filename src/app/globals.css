@@ -22,9 +22,50 @@ body {
 .gallery_slider .swiper-pagination {
   bottom: 0% !important;
 }
+
+
+
+/* ==== PRELOADER CSS ==== */
+
+.preloader::after {
+  animation: animloader 3s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
 @media (max-width: 767.9px) {
   .swiper-pagination-bullet {
     width: 10px !important;
     height: 10px !important;
   }
+}
+
+
+.loader {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.loader:before , .loader:after{
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
+}
+.loader:after {
+  box-shadow: 0 2px 0 #F58220 inset;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {  transform: rotate(0)}
+  100% { transform: rotate(360deg)}
 }
