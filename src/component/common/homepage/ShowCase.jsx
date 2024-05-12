@@ -4,7 +4,7 @@ import { showCaseProduct } from "../Helper";
 
 const ShowCase = () => {
   return (
-    <div className="max-w-[1140px] px-4 xl:px-0 mx-auto pt-[100px]">
+    <div className="max-w-[1440px] px-4 xl:px-0 mx-auto pt-[100px]">
       <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold leading_[120%] max-w-[605px] mx-auto text-center">
         Showcase our Products
       </h2>

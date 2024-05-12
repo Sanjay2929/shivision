@@ -5,7 +5,7 @@ import Image from "next/image";
 const AnimalHealth = () => {
   return (
     <div className="py-[73px]">
-      <div className="xl:max-w-[1140px] container px-4 xl:px-0 mx-auto">
+      <div className="xl:max-w-[1440px] container px-4 xl:px-0 mx-auto">
         <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold !leading-[120%] max-w-[605px] mx-auto text-center">
           Changing Animal Health New Ways for Best Care
         </h2>

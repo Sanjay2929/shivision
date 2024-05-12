@@ -8,7 +8,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="mt-[-124px] shadow-footerTop">
-      <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-4 flex pt-[212px] justify-between md:flex-row flex-col">
+      <div className="xl:max-w-[1440px] container mx-auto xl:px-0 px-4 flex pt-[212px] justify-between md:flex-row flex-col">
         <div className=" pb-[31px] lg:max-w-[450px] max-w-[350px]">
           <Link href="/" className="inline-block">
             <Image
