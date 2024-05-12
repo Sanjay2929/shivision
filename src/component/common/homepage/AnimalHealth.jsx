@@ -9,7 +9,7 @@ const AnimalHealth = () => {
         <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold !leading-[120%] max-w-[605px] mx-auto text-center">
           Changing Animal Health New Ways for Best Care
         </h2>
-        <p className="font-normal text-sm sm:text-base text-dark text-opacity-70 mt-[10px] mb-6 sm:mb-7 md:mb-10 xl:!leading-6 max-w-[628px] mx-auto text-center">
+        <p className="font-normal text-sm sm:text-base text-dark text-opacity-70 mt-[10px] lg:mb-10 xl:!leading-6 max-w-[628px] mx-auto text-center">
           Elevate your animals&apos; well-being with Shivision. Our innovative
           solutions prioritize their health and happiness. Trust us for
           tailored, research-backed care.&quot;
