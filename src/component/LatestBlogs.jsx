@@ -5,12 +5,12 @@ import Link from "next/link";
 
 const LatestBlogs = () => {
   return (
-    <div id="blogs" className="py-48">
+    <div id="blogs" className="lg:py-[120px] py-20">
       <div className="max-w-[1210px] px-4 xl:px-0 mx-auto">
         <h2 className="text-center text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold leading_[120%]">
           Latest Blogs
         </h2>
-        <div className="pt-10 flex xl:justify-between justify-center xl:gap-0 gap-8 xl:flex-nowrap flex-wrap">
+        <div className="md:pt-10 pt-6 flex xl:justify-between justify-center xl:gap-0 sm:gap-8 gap-5 xl:flex-nowrap flex-wrap">
           {blogs.map((value, index) => (
             <div
               key={index}
