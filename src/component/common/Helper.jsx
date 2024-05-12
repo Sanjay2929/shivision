@@ -1,5 +1,15 @@
 import { Facebook, FiveStars, Instagram, LinkedIn, Xtwitter } from "./Icons";
-import brownCows from '../../../public/assets/images/png/gallery/brown-cows.png'
+import brownCows from "../../../public/assets/images/png/gallery/brown-cows.png";
+import whiteBrownCows from "../../../public/assets/images/png/gallery/white-brown-cows.png";
+import goats from "../../../public/assets/images/png/gallery/goats.png";
+import mountainGoats from "../../../public/assets/images/png/gallery/mountain-goats.png";
+import threeCows from "../../../public/assets/images/png/gallery/three-cows.png";
+import brownCowsSetThumb from "../../../public/assets/images/png/gallery/brown-cows-set-thumb.png";
+import whiteBrownCowsSetThumb from "../../../public/assets/images/png/gallery/white-brown-cows-set-thumb.png";
+import goatsSetThumb from "../../../public/assets/images/png/gallery/goats-set-thumb.png";
+import threeCowsSetThumb from "../../../public/assets/images/png/gallery/three-cows-set-thumb.png";
+import mountainGoatsSetThumb from "../../../public/assets/images/png/gallery/mountain-goats-set-thumb.png";
+
 export const BrandsData = [
   {
     description: "Google Score 5.0 | 20 reviews ",
@@ -190,7 +200,7 @@ export const footerLinks = [
         url: "#blogs",
       },
     ],
-  },  
+  },
   {
     heading: "Links",
     link: [
@@ -311,7 +321,7 @@ export const testimonialsList = [
   {
     stars: <FiveStars />,
     description:
-    "As a breeder, finding a reliable veterinary partner is crucial for the success of my business. I've been working with SHIVISION for years, and their commitment to the health and welfare of my animals is unmatched. Their knowledge and professionalism make them my go-to choice for all veterinary needs.",
+      "As a breeder, finding a reliable veterinary partner is crucial for the success of my business. I've been working with SHIVISION for years, and their commitment to the health and welfare of my animals is unmatched. Their knowledge and professionalism make them my go-to choice for all veterinary needs.",
     userName: "Naresh jain",
     subName: "breeder",
   },
@@ -339,13 +349,72 @@ export const testimonialsList = [
   {
     stars: <FiveStars />,
     description:
-    "As a breeder, finding a reliable veterinary partner is crucial for the success of my business. I've been working with SHIVISION for years, and their commitment to the health and welfare of my animals is unmatched. Their knowledge and professionalism make them my go-to choice for all veterinary needs.",
+      "As a breeder, finding a reliable veterinary partner is crucial for the success of my business. I've been working with SHIVISION for years, and their commitment to the health and welfare of my animals is unmatched. Their knowledge and professionalism make them my go-to choice for all veterinary needs.",
     userName: "Naresh jain",
     subName: "breeder",
   },
 ];
-export const galleryList = [
+export const galleryThumbsList = [
   {
     img: brownCows,
+  },
+  {
+    img: whiteBrownCows,
+  },
+  {
+    img: threeCows,
+  },
+  {
+    img: goats,
+  },
+  {
+    img: mountainGoats,
+  },
+  {
+    img: brownCows,
+  },
+  {
+    img: whiteBrownCows,
+  },
+  {
+    img: threeCows,
+  },
+  {
+    img: goats,
+  },
+  {
+    img: mountainGoats,
+  },
+];
+export const gallerySetThumbsList = [
+  {
+    img: brownCowsSetThumb,
+  },
+  {
+    img: whiteBrownCowsSetThumb,
+  },
+  {
+    img: threeCowsSetThumb,
+  },
+  {
+    img: goatsSetThumb,
+  },
+  {
+    img: mountainGoatsSetThumb,
+  },
+  {
+    img: brownCowsSetThumb,
+  },
+  {
+    img: whiteBrownCowsSetThumb,
+  },
+  {
+    img: threeCowsSetThumb,
+  },
+  {
+    img: goatsSetThumb,
+  },
+  {
+    img: mountainGoatsSetThumb,
   },
 ];

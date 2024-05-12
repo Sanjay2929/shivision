@@ -8,15 +8,18 @@ import JoinUs from "@/component/common/homepage/JoinUs";
 import ShowCase from "../component/common/homepage/ShowCase";
 import Image from "next/image";
 import Testimonials from "@/component/common/homepage/Testimonials";
+import Gallery from "@/component/common/homepage/Gallery";
+import BackToTop from "@/component/common/BackToTop";
 
 export default function Home() {
   return (
     <>
       <div className="relative">
+        <BackToTop/>
         <Header />
         <About />
         <Image
-          className="absolute top-0 right-0 xl:w-[439px] lg:w-[400px] sm:w-[340px] w-[50%] h-full"
+          className="absolute top-0 right-0 xl:w-[439px] lg:w-[400px] sm:w-[340px] w-[50%] h-full pointer-events-none"
           width={439}
           height={1676}
           src="/assets/images/hero/orange_half-circle.webp"
@@ -28,6 +31,7 @@ export default function Home() {
       <ShowCase />
       <LatestBlogs />
       <JoinUs />
+      <Gallery/>
       <ContactUs />
       <Footer />
     </>

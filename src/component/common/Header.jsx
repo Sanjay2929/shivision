@@ -12,7 +12,7 @@ import "swiper/css/effect-fade";
 
 const Header = () => {
   return (
-    <div className="xl:max-w-[1440px] xl:px-10 px-4 sm:pt-10  pt-6 mx-auto lg:pb-[110px] pb-[60px] hero relative z-50">
+    <div className="xl:max-w-[1440px] xl:px-10 px-4 sm:pt-10  pt-6 mx-auto hero relative z-50">
       <Navbar />
       <Swiper
         modules={[Pagination, EffectFade, Autoplay]}
@@ -35,14 +35,14 @@ const Header = () => {
                   <h1 className="font-black md:text-5xl text-[32px] text-black max-w-[560px] leading-[120%] md:text-start text-center md:ms-0 mx-auto">
                     {value.heading}
                   </h1>
-                  <p className="max-w-[560px] text-black md:opacity-80 opacity-100 md:text-start text-center font-normal text-base pt-2.5 md:ms-0 mx-auto">
+                  <p className="max-w-[560px] text-black md:opacity-80 opacity-100 md:text-start text-center font-normal text-sm sm:text-base pt-2.5 md:ms-0 mx-auto">
                     {value.description}
                   </p>
                   <div className="flex gap-4 pt-7 md:justify-start justify-center">
-                    <button className="py-4 px-6 rounded-lg bg-orange font-black text-base text-white duration-500 border border-orange hover:text-orange hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]">
+                    <button className="py-3 sm:py-4 px-5 sm:px-6 rounded-lg bg-orange font-black text-sm sm:text-base text-white duration-500 border border-orange hover:text-orange hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]">
                       Explore More
                     </button>
-                    <button className="py-4 px-6 rounded-lg text-opacity-80 bg-white font-black text-base text-orange duration-500 border border-orange hover:text-white hover:shadow-[0px_150px_0px_-67px_rgba(245,130,32,1)_inset]">
+                    <button className="py-3 sm:py-4 px-5 sm:px-6 rounded-lg text-opacity-80 bg-white font-black text-sm sm:text-base text-orange duration-500 border border-orange hover:text-white hover:shadow-[0px_150px_0px_-67px_rgba(245,130,32,1)_inset]">
                       Learn More
                     </button>
                   </div>

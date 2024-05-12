@@ -29,6 +29,7 @@ module.exports = {
         stardust: "#9F9F9F",
         darkblack: "#000700",
         fuscousgray: "#4D524D",
+        lightgray: "#ADADAD",
       },
       backgroundImage: {
         bg_portfolio: "url('/assets/images/png/detail/portfolio-bg.png')",
@@ -49,6 +50,9 @@ module.exports = {
         aboutSmRightImageShadow: "15px 15px 0px 0px #FF7500 ",
         testimonialsRightImageShadow: "10px 10px 0px 0px #FF7500 ",
         testimonialsSmRightImageShadow: "7px 7px 0px 0px #FF7500 ",
+        backToTopShadow: "0px 0px 30px 0px #FF7500",
+        galleryShadow: "10px 10px 0px 0px #FF7500 ",
+        gallerySmShadow: "7px 7px 0px 0px #FF7500 ",
         animalcards: " 0px 0px 25px 0px #0000001A",
         blogcards: "10px 10px 0px 0px #FF7500",
         footerTop: "0px -8px 145.2px 0px #0000002E",

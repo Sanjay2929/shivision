@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const JoinUs = () => {
   return (
-    <div className="px-5 xl:px-0 py-8 md:py-16 lg:py-20">
-      <div className="max-w-[1140px] mx-auto">
+    <div className="">
+      <div className="max-w-[1140px] mx-auto px-4 xl:px-0">
         <div className="grid md:grid-cols-2 items-center md:justify-between text-center md:text-start justify-center gap-10 lg:gap-20 xl:gap-[115px]">
           <div className="max-w-[550px] md:max-w-none mt-3 sm:mt-6 order-2 md:order-1 md:mt-0">
             <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold xl:!leading-[40px]">
@@ -20,16 +20,14 @@ const JoinUs = () => {
               brighter future for our beloved companions. Join us now and let's
               make a difference, one paw at a time.
             </p>
-            <a
-              href="#"
-              className="text-sm sm:text-base border border-orange text-orange text-opacity-80 py-3 px-5 sm:py-4 sm:px-6 rounded-lg font-black !leading-5 hover:bg-orange hover:text-white duration-300 hover:scale-95 inline-block"
-            >
-              Contact Now
-            </a>
+              <button className="py-3 sm:py-4 px-5 sm:px-6 border font-black  border-orange rounded-lg duration-500 hover:text-white hover:shadow-btnHover text-orange 
+text-sm sm:text-base">
+                Contact Now
+              </button>
           </div>
-          <div className="pe-4 sm:pe-5 order-1 md:order-2" >
+          <div className="pe-4 sm:pe-5 order-1 md:order-2">
             <Image
-              className="max-w-[400px] md:max-w-[558px] w-full shadow-aboutSmRightImageShadow sm:shadow-aboutRightImageShadow rounded-[33px] mx-auto md:ms-0"
+              className="max-w-[400px] md:max-w-[558px] w-full hover:shadow-aboutSmRightImageShadow lg:hover:shadow-aboutRightImageShadow duration-300 rounded-[33px] mx-auto md:ms-0"
               width={558}
               height={600}
               src="/assets/images/png/about/join-us-img.png"
