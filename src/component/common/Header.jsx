@@ -51,7 +51,7 @@ const Header = () => {
                   width={1380}
                   height={600}
                   className="absolute top-1/2 object-left opacity-45 md:opacity-100 -translate-y-1/2 left-0 z-0 h-full object-cover"
-                  src="/assets/images/hero/white_layer.png"
+                  src="/assets/images/hero/white_layer.webp"
                   alt="layer"
                 />
               </div>
