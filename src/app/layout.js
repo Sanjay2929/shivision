@@ -11,7 +11,7 @@ export const metadata = {
   openGraph: {
     title: "Shivision",
     description: "Optimizing Animal Health & Performance Sustainable Solutions",
-    images: ["/meta-img.webp"],
+    images: "/meta-img.webp",
   },
 };
 

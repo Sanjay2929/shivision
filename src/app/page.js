@@ -7,6 +7,7 @@ import Footer from "@/component/common/homepage/Footer";
 import JoinUs from "@/component/common/homepage/JoinUs";
 import ShowCase from "../component/common/homepage/ShowCase";
 import Image from "next/image";
+import Testimonials from "@/component/common/homepage/Testimonials";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         />
       </div>
       <AnimalHealth />
+      <Testimonials/>
       <ShowCase />
       <LatestBlogs />
       <JoinUs />

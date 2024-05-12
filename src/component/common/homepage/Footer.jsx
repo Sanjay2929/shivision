@@ -5,11 +5,12 @@ import { Facebook } from "../Icons";
 import { footerLinks, socialLinks } from "../Helper";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="mt-[-124px] shadow-footerTop">
       <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-4 flex pt-[212px] justify-between md:flex-row flex-col">
         <div className=" pb-[31px] lg:max-w-[450px] max-w-[350px]">
-          <Link href="/">
+          <Link href="/" className="inline-block">
             <Image
               width={187}
               height={100}
@@ -26,8 +27,10 @@ const Footer = () => {
             {socialLinks.map((value, index) => {
               return (
                 <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
                   key={index}
-                  className="w-[32px] h-[32px] flex justify-center items-center bg-orange rounded"
+                  className="w-[32px] h-[32px] flex justify-center items-center bg-orange rounded hover:scale-110 duration-300"
                   href={value.url}
                 >
                   {value.icon}
@@ -63,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 border-t border-black border-opacity-80 text-center md:mt-0 mt-6">
-        ©2024 All Rights Reserved | Shivision
+        ©{currentYear} All Rights Reserved | Shivision
       </p>
     </div>
   );

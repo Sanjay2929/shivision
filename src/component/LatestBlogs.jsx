@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { blogs } from "./common/Helper";
+import Link from "next/link";
 
 const LatestBlogs = () => {
   return (
@@ -21,7 +22,7 @@ const LatestBlogs = () => {
                 className="w-[332px] h-[223px] rounded-xl object-cover"
               />
               <div className="pt-4 flex items-center">
-                <button className="bg-orange text-white rounded px-3 py-[6px] font-medium text-sm leading-[150%]">
+                <button className="bg-orange text-white rounded px-3 py-[6px] font-medium text-sm leading-[150%] hover:bg-white hover:text-orange border  border-orange duration-300">
                   {value.viewbutton}
                 </button>
                 <div className="h-[33px] w-[1px] bg-black_linear_line ms-4"></div>
@@ -32,9 +33,9 @@ const LatestBlogs = () => {
               <p className="pt-[14px] font-bold text-lg ">{value.heading}</p>
               <p className="pt-2 font-normal text-fuscousgray text-sm leading-[150%]">
                 {value.description}{" "}
-                <span className="font-medium text-orange">
+                <Link href="/" className="font-medium text-orange">
                   {value.readmore}
-                </span>
+                </Link>
               </p>
               <div className="mt-3 bg-linear_blog_bottom h-[1px] w-full"></div>
               <div className="pt-4 flex items-center justify-between">
@@ -54,8 +55,18 @@ const LatestBlogs = () => {
                   </div>
                 </div>
                 <div className="flex gap-3 items-center">
-                  <a href={value.facebooklink}>{value.facebookicon}</a>
-                  <a href={value.linkedinlink}>{value.linkedinicon}</a>
+                  <a
+                    className="hover:scale-110 duration-300"
+                    href={value.facebooklink}
+                  >
+                    {value.facebookicon}
+                  </a>
+                  <a
+                    className="hover:scale-110 duration-300"
+                    href={value.linkedinlink}
+                  >
+                    {value.linkedinicon}
+                  </a>
                 </div>
               </div>
             </div>
