@@ -1,5 +1,5 @@
 import { Facebook, FiveStars, Instagram, LinkedIn, Xtwitter } from "./Icons";
-
+import brownCows from '../../../public/assets/images/png/gallery/brown-cows.png'
 export const BrandsData = [
   {
     description: "Google Score 5.0 | 20 reviews ",
@@ -342,5 +342,10 @@ export const testimonialsList = [
     "As a breeder, finding a reliable veterinary partner is crucial for the success of my business. I've been working with SHIVISION for years, and their commitment to the health and welfare of my animals is unmatched. Their knowledge and professionalism make them my go-to choice for all veterinary needs.",
     userName: "Naresh jain",
     subName: "breeder",
+  },
+];
+export const galleryList = [
+  {
+    img: brownCows,
   },
 ];

@@ -2,34 +2,31 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { testimonialsList } from "../Helper";
-import { Pagination } from "swiper/modules";
+import { Pagination,Autoplay } from "swiper/modules";
 
 const Testimonials = () => {
   return (
     <div className="xl:max-w-[1440px] mx-auto testimonials">
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination,Autoplay]}
         loop={true}
         pagination={false}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
-        slidesPerView={1.2} // Adjusted slidesPerView
-        spaceBetween={15} // Adjusted space between slides
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        slidesPerView={1.2}
+        spaceBetween={15}
         centeredSlides={true}
         breakpoints={{
           640: {
-            // centeredSlides: false,
             slidesPerView: 1.4,
             spaceBetween: 20,
           },
           768: {
-            // centeredSlides: false,
             slidesPerView: 2,
           },
           1024: {
-            // centeredSlides: false,
             slidesPerView: 2.5,
           },
           1400: {
@@ -37,7 +34,6 @@ const Testimonials = () => {
             slidesPerView: 2.2,
           },
           1600: {
-            // centeredSlides: false,
             slidesPerView: 3.2,
             spaceBetween: 32,
           },
