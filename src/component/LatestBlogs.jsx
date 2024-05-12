@@ -5,16 +5,16 @@ import Link from "next/link";
 
 const LatestBlogs = () => {
   return (
-    <div id="blogs" className="py-48">
+    <div id="blogs" className="my-16 sm:my-20 md:my-[100px] xl:my-40">
       <div className="max-w-[1210px] px-4 xl:px-0 mx-auto">
         <h2 className="text-center text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold leading_[120%]">
           Latest Blogs
         </h2>
-        <div className="pt-10 flex xl:justify-between justify-center xl:gap-0 gap-8 xl:flex-nowrap flex-wrap">
+        <div className="md:pt-10 pt-6 flex xl:justify-between justify-center xl:gap-0 lg:gap-8 gap-4 xl:flex-nowrap flex-wrap">
           {blogs.map((value, index) => (
             <div
               key={index}
-              className="p-4 border w-[385px] border-silversand rounded-2xl hover:shadow-blogcards transition-all duration-300 ease-in-out"
+              className="p-4 border w-[360px] lg:w-[385px] border-silversand rounded-2xl hover:shadow-blogcards transition-all duration-300 ease-in-out"
             >
               <img
                 src={value.img}
@@ -33,7 +33,7 @@ const LatestBlogs = () => {
               <p className="pt-[14px] font-bold text-lg ">{value.heading}</p>
               <p className="pt-2 font-normal text-fuscousgray text-sm leading-[150%]">
                 {value.description}{" "}
-                <Link href="/" className="font-medium text-orange">
+                <Link href="/" className=" font-medium text-orange">
                   {value.readmore}
                 </Link>
               </p>
@@ -73,7 +73,8 @@ const LatestBlogs = () => {
           ))}
         </div>
         <div className="mt-12 flex justify-center">
-          <button className="py-4 px-6 border font-black  border-orange rounded-lg duration-500 hover:text-white hover:shadow-btnHover text-orange">
+          <button className="py-3 sm:py-4 px-5 sm:px-6 border font-black  border-orange rounded-lg duration-500 hover:text-white hover:shadow-btnHover text-orange 
+text-sm sm:text-base">
             View All Blogs
           </button>
         </div>

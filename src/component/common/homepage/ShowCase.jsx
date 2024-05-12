@@ -4,7 +4,7 @@ import { showCaseProduct } from "../Helper";
 
 const ShowCase = () => {
   return (
-    <div id="products" className="max-w-[905px] px-4 xl:px-0 mx-auto pt-[100px]">
+    <div id="products" className="max-w-[905px] px-4 xl:px-0 mx-auto ">
       <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold leading_[120%] max-w-[605px] mx-auto text-center">
         Showcase our Products
       </h2>
@@ -29,7 +29,7 @@ const ShowCase = () => {
               <p className=" font-bold text-base text-orange mb-4">
                 {content.description}
               </p>
-              <button className="py-1.5 px-3.5 border border-orange rounded-md opacity-70 hover:opacity-100 duration-500 hover:text-white hover:shadow-btnHover text-orange">
+              <button className="py-1.5 px-3.5 border border-orange text-sm rounded-md opacity-70 hover:opacity-100 duration-500 hover:text-white hover:shadow-btnHover text-orange">
                 Buy Now
               </button>
             </div>
@@ -37,7 +37,8 @@ const ShowCase = () => {
         })}
       </div>
       <div className="flex justify-center pt-10">
-        <button className="py-4 px-6 border font-black  border-orange rounded-lg duration-500 hover:text-white hover:shadow-btnHover text-orange">
+        <button className="py-3 sm:py-4 px-5 sm:px-6 border font-black  border-orange rounded-lg duration-500 hover:text-white hover:shadow-btnHover text-orange 
+text-sm sm:text-base">
           View All Products
         </button>
       </div>

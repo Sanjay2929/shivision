@@ -3,6 +3,13 @@ import brownCows from "../../../public/assets/images/png/gallery/brown-cows.png"
 import whiteBrownCows from "../../../public/assets/images/png/gallery/white-brown-cows.png";
 import goats from "../../../public/assets/images/png/gallery/goats.png";
 import mountainGoats from "../../../public/assets/images/png/gallery/mountain-goats.png";
+import threeCows from "../../../public/assets/images/png/gallery/three-cows.png";
+import brownCowsSetThumb from "../../../public/assets/images/png/gallery/brown-cows-set-thumb.png";
+import whiteBrownCowsSetThumb from "../../../public/assets/images/png/gallery/white-brown-cows-set-thumb.png";
+import goatsSetThumb from "../../../public/assets/images/png/gallery/goats-set-thumb.png";
+import threeCowsSetThumb from "../../../public/assets/images/png/gallery/three-cows-set-thumb.png";
+import mountainGoatsSetThumb from "../../../public/assets/images/png/gallery/mountain-goats-set-thumb.png";
+
 export const BrandsData = [
   {
     description: "Google Score 5.0 | 20 reviews ",
@@ -355,6 +362,24 @@ export const galleryThumbsList = [
     img: whiteBrownCows,
   },
   {
+    img: threeCows,
+  },
+  {
+    img: goats,
+  },
+  {
+    img: mountainGoats,
+  },
+  {
+    img: brownCows,
+  },
+  {
+    img: whiteBrownCows,
+  },
+  {
+    img: threeCows,
+  },
+  {
     img: goats,
   },
   {
@@ -363,6 +388,33 @@ export const galleryThumbsList = [
 ];
 export const gallerySetThumbsList = [
   {
-    img: brownCows,
+    img: brownCowsSetThumb,
+  },
+  {
+    img: whiteBrownCowsSetThumb,
+  },
+  {
+    img: threeCowsSetThumb,
+  },
+  {
+    img: goatsSetThumb,
+  },
+  {
+    img: mountainGoatsSetThumb,
+  },
+  {
+    img: brownCowsSetThumb,
+  },
+  {
+    img: whiteBrownCowsSetThumb,
+  },
+  {
+    img: threeCowsSetThumb,
+  },
+  {
+    img: goatsSetThumb,
+  },
+  {
+    img: mountainGoatsSetThumb,
   },
 ];

@@ -18,6 +18,10 @@ body {
 .hero .swiper {
   padding-bottom: 40px;
 }
+
+.gallery_slider .swiper-pagination {
+  bottom: 0% !important;
+}
 @media (max-width: 767.9px) {
   .swiper-pagination-bullet {
     width: 10px !important;

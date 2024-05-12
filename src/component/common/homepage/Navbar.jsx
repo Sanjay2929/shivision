@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <div className="shadow-[0px_4px_20.4px_0px_#0000001F] border-b border-orange py-3 rounded-2xl bg-white">
-      <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-3 flex justify-between items-center">
+      <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-4 flex justify-between items-center">
         <Link href="/">
           <Image
             width={143}
@@ -40,7 +40,7 @@ const Navbar = () => {
                   }}
                   key={index}
                   href={value.url}
-                  className="hover:text-orange duration-300 font-normal text-base text-gray"
+                  className="hover:text-orange duration-300 font-normal text-sm sm:text-base text-gray"
                 >
                   {value.title}
                 </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
               setNavShow(false);
               scrollRemoveHandler();
             }}
-            className="py-4 px-6 rounded-lg bg-orange font-black text-base text-white duration-500 border border-orange hover:text-orange hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]"
+            className="py-4 px-6 rounded-lg bg-orange font-black text-sm sm:text-base text-white duration-500 border border-orange hover:text-orange hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]"
           >
             Call Us Now
           </Link>

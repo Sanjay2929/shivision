@@ -8,7 +8,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="mt-[-124px] shadow-footerTop">
-      <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-4 flex pt-[212px] justify-between md:flex-row flex-col">
+      <div className="xl:max-w-[1140px] container mx-auto xl:px-0 px-4 flex md:pt-[212px] pt-40 justify-between md:flex-row flex-col">
         <div className=" pb-[31px] lg:max-w-[450px] max-w-[350px]">
           <Link href="/" className="inline-block">
             <Image
@@ -18,7 +18,7 @@ const Footer = () => {
               alt="logo"
             />
           </Link>
-          <p className="font-normal text-base text-dark pt-4 pb-10">
+          <p className="font-normal text-sm sm:text-base text-dark text-opacity-70 pt-4 pb-10">
             Lorem ipsum dolor sit amet consectetur. Egestas mollis nisl aliquet
             dignissim eu aliquam sit. Praesent nulla massa habitasse lectus eu
             arcu lorem. Senectus aliquam.
@@ -51,7 +51,7 @@ const Footer = () => {
                     return (
                       <li key={index}>
                         <Link
-                          className="text-base text-gray font-normal hover:text-orange duration-300"
+                          className="text-sm sm:text-base text-gray font-normal hover:text-orange duration-300"
                           href={sublink.url}
                         >
                           {sublink.title}
@@ -65,7 +65,7 @@ const Footer = () => {
           })}
         </div>
       </div>
-      <p className="py-4 border-t border-black border-opacity-80 text-center md:mt-0 mt-6">
+      <p className="py-4 text-sm sm:text-base border-t border-lightgray border-opacity-80 text-opacity-80 border-opacity-80 text-center md:mt-0 mt-6">
         ©{currentYear} All Rights Reserved | Shivision
       </p>
     </div>

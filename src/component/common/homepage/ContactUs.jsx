@@ -13,7 +13,7 @@ const ContactUs = () => {
           questions, feedback, or simply want to share your love for animals,
           we&apos;re here to listen and engage with you.
         </p>
-        <button className="py-4 px-6 rounded-lg bg-white font-medium text-base text-black duration-500 border border-white hover:text-white hover:shadow-[0px_150px_0px_-67px_rgba(245,130,32,1)_inset]">
+        <button className="py-3 sm:py-4 px-5 sm:px-6 text-sm sm:text-base rounded-lg bg-white font-medium text-black duration-500 border border-white hover:text-white hover:shadow-[0px_150px_0px_-67px_rgba(245,130,32,1)_inset]">
           Book A Call Now
         </button>
       </div>
