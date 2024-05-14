@@ -8,10 +8,8 @@ const ShowCase = () => {
       <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold leading_[120%] max-w-[605px] mx-auto text-center">
         Showcase our Products
       </h2>
-      <p className="font-normal text-sm sm:text-base text-dark text-opacity-70 mt-[10px] mb-6 sm:mb-7 md:mb-10 lg:mb-20 xl:!leading-6 mx-auto text-center max-w-[628px]">
-        Lorem ipsum dolor sit amet consectetur. Leo ac libero ullamcorper diam a
-        morbi. Quis sit aliquam viverra in donec in tortor. Libero odio
-        scelerisque adipiscing
+      <p className="font-normal text-sm sm:text-base text-dark text-opacity-70 mt-[10px] mb-6 sm:mb-7 md:mb-10 lg:mb-20 xl:!leading-6 mx-auto text-center max-w-[628px] lg:max-w-[510px] px-4">
+      Discover our curated collection of top-quality products, meticulously designed to meet your needs.
       </p>
       <div className="grid md:grid-cols-3 grid-cols-2 lg:gap-10 sm:gap-6 gap-3 max-[500px]:grid-cols-1 md:gap-y-10 gap-y-8">
         {showCaseProduct.map((content, index) => {
