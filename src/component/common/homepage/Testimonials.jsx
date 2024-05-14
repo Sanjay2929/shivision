@@ -10,10 +10,8 @@ const Testimonials = () => {
       <h2 className="text-3xl md:text-4xl xl:text-custom-4xl text-dark font-bold xl:!leading-[40px] text-center">
         Testimonials
       </h2>
-      <p className="font-normal text-sm sm:text-base text-dark text-opacity-70 mt-[10px] mb-6 md:mb-10 lg:mb-16 xl:!leading-6 text-center">
-        Lorem ipsum dolor sit amet consectetur. Leo ac libero ullamcorper diam a
-        morbi. Quis sit aliquam viverra in donec in tortor. Libero odio
-        scelerisque adipiscing
+      <p className="font-normal text-sm sm:text-base text-dark text-opacity-70 mt-[10px] mb-6 md:mb-10 lg:mb-16 xl:!leading-6 text-center lg:max-w-[420px] mx-auto px-4">
+      Discover firsthand accounts of our `&apos;` experiences and satisfaction with our services.
       </p>
       <Swiper
         modules={[Pagination, Autoplay]}
