@@ -89,10 +89,8 @@ const Footer = () => {
             <ul className="flex flex-col gap-3 ">
               <li>
                 <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="text-sm sm:text-base text-gray font-normal opacity-80 hover:opacity-100 duration-300 hover:text-orange duration-300"
-                  href="https://wa.me/+917218000880"
+                  href="tel:+917218000880"
                 >
                   +917218000880
                 </Link>

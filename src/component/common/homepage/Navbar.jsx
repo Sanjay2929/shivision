@@ -3,9 +3,16 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
 import { navLinks } from "../Helper";
-import { Cross, Menu } from "../Icons";
+import { Cross, CrossPopup, Menu, WhatsApp } from "../Icons";
+import {
+  Description,
+  Dialog,
+  DialogPanel,
+  DialogTitle,
+} from "@headlessui/react";
 
 const Navbar = () => {
+  let [isOpen, setIsOpen] = useState(false);
   const [navShow, setNavShow] = useState(false);
   const scrollOverflowHandler = () => {
     document.body.classList.toggle("overflow-hidden");
@@ -47,18 +54,50 @@ const Navbar = () => {
               );
             })}
           </div>
-          <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://wa.me/+917218000880"
+          <button
             onClick={() => {
               setNavShow(false);
               scrollRemoveHandler();
+              setIsOpen(true);
             }}
             className="py-4 px-6 rounded-lg bg-orange font-black text-sm sm:text-base text-white duration-500 border border-orange hover:text-orange hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]"
           >
             Call Us Now
-          </Link>
+          </button>
+          <Dialog
+            open={isOpen}
+            onClose={() => setIsOpen(false)}
+            className="relative z-50"
+          >
+            <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
+              <DialogPanel className="max-w-lg space-y-4 border bg-white p-12 relative">
+                <button className="top-3 end-3 absolute" onClick={() => setIsOpen(false)}>
+                  <CrossPopup />
+                </button>
+                <DialogTitle className="font-bold flex justify-center pb-10">
+                  <WhatsApp />
+                </DialogTitle>
+                <Description>
+                  <p className="font-black lg:text-5xl sm:text-4xl text-3xl text-[#39AE41] text-center md:pb-14 pb-6">
+                    Give us a WhatsApp Call
+                  </p>
+                </Description>
+                <div className="flex justify-center">
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://wa.me/+917218000880"
+                    onClick={() => {
+                      setIsOpen(false);
+                    }}
+                    className="py-4 px-6 rounded-lg bg-orange font-black text-sm sm:text-base text-white duration-500 border border-orange hover:text-orange hover:shadow-[0px_150px_0px_-67px_rgba(255,255,255,1)_inset]"
+                  >
+                    +917218000880
+                  </Link>
+                </div>
+              </DialogPanel>
+            </div>
+          </Dialog>
         </div>
         <span
           className="relative z-[101] lg:hidden cursor-pointer"
