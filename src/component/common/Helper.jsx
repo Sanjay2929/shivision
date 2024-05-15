@@ -201,19 +201,6 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    heading: "Links",
-    link: [
-      {
-        title: "Terms and Conditions",
-        url: "#",
-      },
-      {
-        title: "Privacy  Policy",
-        url: "#",
-      },
-    ],
-  },
 ];
 
 // HERO CARDS

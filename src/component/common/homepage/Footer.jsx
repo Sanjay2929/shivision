@@ -39,7 +39,7 @@ const Footer = () => {
             })}
           </div>
         </div>
-        <div className="flex lg:gap-[105px] sm:gap-14 justify-between">
+        <div className="flex lg:gap-[105px] sm:gap-14 gap-8 justify-between sm:flex-nowrap flex-wrap">
           {footerLinks.map((value, index) => {
             return (
               <div key={index}>
@@ -51,7 +51,7 @@ const Footer = () => {
                     return (
                       <li key={index}>
                         <Link
-                          className="text-sm sm:text-base text-gray font-normal hover:text-orange duration-300"
+                          className="text-sm sm:text-base text-gray opacity-80 hover:opacity-100 duration-300 font-normal hover:text-orange duration-300"
                           href={sublink.url}
                         >
                           {sublink.title}
@@ -63,9 +63,55 @@ const Footer = () => {
               </div>
             );
           })}
+          <div>
+            <h3 className="font-medium text-xl text-black pb-2.5">Links</h3>
+            <ul className="flex flex-col gap-3 ">
+              <li>
+                <Link
+                  className="text-sm sm:text-base text-gray font-normal opacity-80 hover:opacity-100 duration-300 hover:text-orange duration-300"
+                  href="#"
+                >
+                  Terms and Conditions
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-sm sm:text-base text-gray font-normal opacity-80 hover:opacity-100 duration-300 hover:text-orange duration-300"
+                  href="#"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
+            <h3 className="font-medium text-xl text-black pb-2.5 sm:pt-10 pt-8">
+              Contact
+            </h3>
+            <ul className="flex flex-col gap-3 ">
+              <li>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm sm:text-base text-gray font-normal opacity-80 hover:opacity-100 duration-300 hover:text-orange duration-300"
+                  href="https://wa.me/+917218000880"
+                >
+                  +917218000880
+                </Link>
+              </li>
+              <li>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm sm:text-base text-gray font-normal opacity-80 hover:opacity-100 duration-300 hover:text-orange duration-300"
+                  href="mailto:shivisionlifesciencepvtltd@gmail.com"
+                >
+                  shivisionlifesciencepvtltd@gmail.com
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <p className="py-4 text-sm sm:text-base border-t border-lightgray border-opacity-80 text-opacity-80 border-opacity-80 text-center md:mt-0 mt-6">
+      <p className="py-4 text-sm sm:text-base border-t border-lightgray border-opacity-80 text-opacity-80 text-center md:mt-0 mt-6">
         ©{currentYear} All Rights Reserved | Shivision
       </p>
     </div>

@@ -47,7 +47,10 @@ const Navbar = () => {
               );
             })}
           </div>
-          <Link href="#contact"
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/+917218000880"
             onClick={() => {
               setNavShow(false);
               scrollRemoveHandler();
