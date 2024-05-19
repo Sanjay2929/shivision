@@ -10,13 +10,13 @@ import Image from "next/image";
 import Testimonials from "@/component/common/homepage/Testimonials";
 import Gallery from "@/component/common/homepage/Gallery";
 import BackToTop from "@/component/common/BackToTop";
-import Preloader from "@/component/common/Preloader";
+// import Preloader from "@/component/common/Preloader";
 
 export default function Home() {
   return (
     <>
       <div className="relative">
-        <Preloader/>
+        {/* <Preloader/> */}
         <BackToTop/>
         <Header />
         <About />

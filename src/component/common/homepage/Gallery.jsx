@@ -64,9 +64,9 @@ const Gallery = () => {
       >
         {gallerySetThumbsList.map((obj, index) => {
           return (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index} className="overflow-hidden border border-orange rounded-lg sm:rounded-2xl md:rounded-3xl">
               <Image
-                className="w-full border border-orange rounded-lg sm:rounded-2xl md:rounded-3xl"
+                className="w-full duration-300"
                 width={270}
                 height={222}
                 src={obj.img}
