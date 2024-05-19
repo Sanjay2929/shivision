@@ -47,32 +47,78 @@ export const animals = [
   {
     image: "/assets/images/animal-health/cattle.png",
     title: "Cattle & Buffalo",
-    url: "",
+    popupContent: [
+      {
+        img: "/assets/images/show-case/product-1.png",
+        description: "FiberAid Plus [ 75gm ]",
+      },
+      {
+        img: "/assets/images/show-case/product-2.png",
+        description: "Lacmin [ 1kg,5kg,20kg ]",
+      },
+      {
+        img: "/assets/images/show-case/product-3.png",
+        description: "Lacvit H [ 500ml , 1litter ]",
+      },
+      {
+        img: "/assets/images/show-case/product-4.png",
+        description: "Chelated Lacmilk  [ 5litter 20litter ]",
+      },
+      {
+        img: "/assets/images/show-case/product-5.png",
+        description: "Calf m-29 [ 500ml 5litter ]",
+      },
+      {
+        img: "/assets/images/show-case/product-6.png",
+        description: "Lacmilk advance gel [ 300ml ] ",
+      },
+    ],
   },
   {
     image: "/assets/images/animal-health/calves.png",
     title: "Calves",
-    url: "",
+    popupContent: [
+      {
+        img: "/assets/images/show-case/product-2.png",
+        description: "Lacmin [ 1kg,5kg,20kg ]",
+      },
+    ],
   },
   {
     image: "/assets/images/animal-health/sheep.png",
     title: "Sheep & Goat",
-    url: "",
+    popupContent: [
+      {
+        title: "Coming Soon",
+      },
+    ],
   },
   {
     image: "/assets/images/animal-health/poultry.png",
     title: "Poultry",
-    url: "",
+    popupContent: [
+      {
+        title: "Coming Soon",
+      },
+    ],
   },
   {
     image: "/assets/images/animal-health/hourse.png",
     title: "Equine",
-    url: "",
+    popupContent: [
+      {
+        title: "Coming Soon",
+      },
+    ],
   },
   {
     image: "/assets/images/animal-health/aqua.png",
     title: "Aqua",
-    url: "",
+    popupContent: [
+      {
+        title: "Coming Soon",
+      },
+    ],
   },
 ];
 export const showCaseProduct = [
@@ -116,7 +162,8 @@ export const blogs = [
     profiledescription: "Lorem ipsum dolor",
     facebookicon: <Facebook />,
     linkedinicon: <LinkedIn />,
-    facebooklink: "https://www.facebook.com/",
+    facebooklink:
+      "https://www.facebook.com/profile.php?id=61554868174584&mibextid=ZbWKwL",
     linkedinlink: "https://www.linkedin.com/",
   },
   {
@@ -133,7 +180,8 @@ export const blogs = [
     profiledescription: "Lorem ipsum dolor",
     facebookicon: <Facebook />,
     linkedinicon: <LinkedIn />,
-    facebooklink: "https://www.facebook.com/",
+    facebooklink:
+      "https://www.facebook.com/profile.php?id=61554868174584&mibextid=ZbWKwL",
     linkedinlink: "https://www.linkedin.com/",
   },
   {
@@ -149,7 +197,8 @@ export const blogs = [
     profiledescription: "Lorem ipsum dolor",
     facebookicon: <Facebook />,
     linkedinicon: <LinkedIn />,
-    facebooklink: "https://www.facebook.com/",
+    facebooklink:
+      "https://www.facebook.com/profile.php?id=61554868174584&mibextid=ZbWKwL",
     linkedinlink: "https://www.linkedin.com/",
   },
 ];
@@ -158,19 +207,11 @@ export const blogs = [
 export const socialLinks = [
   {
     icon: <Facebook />,
-    url: "https://www.facebook.com/",
-  },
-  {
-    icon: <Xtwitter />,
-    url: "https://www.twitter.com/",
-  },
-  {
-    icon: <LinkedIn />,
-    url: "https://www.linkedin.com/",
+    url: "https://www.facebook.com/profile.php?id=61554868174584&mibextid=ZbWKwL",
   },
   {
     icon: <Instagram />,
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/shivisionlifescience?igsh=MWV5OWF2NXoxOHIybw%3D%3D&utm_source=qr",
   },
 ];
 
@@ -307,14 +348,14 @@ export const testimonialsList = [
   {
     stars: <FiveStars />,
     description:
-    "Our experience at SHIVISION has been nothing short of amazing. The veterinarians and staff are not only highly skilled professionals but also genuinely caring individuals who go above and beyond for their furry patients. I trust them implicitly with the health and well-being of my pets.",
+      "Our experience at SHIVISION has been nothing short of amazing. The veterinarians and staff are not only highly skilled professionals but also genuinely caring individuals who go above and beyond for their furry patients. I trust them implicitly with the health and well-being of my pets.",
     userName: "Sumit",
     subName: "Pet owner",
   },
   {
     stars: <FiveStars />,
     description:
-    "I'm incredibly grateful to the team at SHIVISION for their prompt and thorough care of my sick pet. Their expertise and dedication were evident from the moment we walked in. Thanks to their timely intervention and treatment, my pet is now back to his happy, healthy self.",
+      "I'm incredibly grateful to the team at SHIVISION for their prompt and thorough care of my sick pet. Their expertise and dedication were evident from the moment we walked in. Thanks to their timely intervention and treatment, my pet is now back to his happy, healthy self.",
     userName: "Mukesh",
     subName: "Pet owner",
   },
@@ -327,7 +368,8 @@ export const testimonialsList = [
   },
   {
     stars: <FiveStars />,
-    description:"When my aging pet required specialized medical attention, I turned to SHIVISION, and I'm so glad I did. The team not only provided top-notch medical care but also offered invaluable support and guidance throughout the entire process. I can't thank them enough for their compassion and expertise.",
+    description:
+      "When my aging pet required specialized medical attention, I turned to SHIVISION, and I'm so glad I did. The team not only provided top-notch medical care but also offered invaluable support and guidance throughout the entire process. I can't thank them enough for their compassion and expertise.",
     userName: "Ritesh",
     subName: "Web-Designer",
   },
@@ -341,14 +383,14 @@ export const testimonialsList = [
   {
     stars: <FiveStars />,
     description:
-    "Our experience at SHIVISION has been nothing short of amazing. The veterinarians and staff are not only highly skilled professionals but also genuinely caring individuals who go above and beyond for their furry patients. I trust them implicitly with the health and well-being of my pets.",
+      "Our experience at SHIVISION has been nothing short of amazing. The veterinarians and staff are not only highly skilled professionals but also genuinely caring individuals who go above and beyond for their furry patients. I trust them implicitly with the health and well-being of my pets.",
     userName: "Sumit",
     subName: "Pet owner",
   },
   {
     stars: <FiveStars />,
     description:
-    "I'm incredibly grateful to the team at SHIVISION for their prompt and thorough care of my sick pet. Their expertise and dedication were evident from the moment we walked in. Thanks to their timely intervention and treatment, my pet is now back to his happy, healthy self.",
+      "I'm incredibly grateful to the team at SHIVISION for their prompt and thorough care of my sick pet. Their expertise and dedication were evident from the moment we walked in. Thanks to their timely intervention and treatment, my pet is now back to his happy, healthy self.",
     userName: "Mukesh",
     subName: "Pet owner",
   },
@@ -361,7 +403,8 @@ export const testimonialsList = [
   },
   {
     stars: <FiveStars />,
-    description:"When my aging pet required specialized medical attention, I turned to SHIVISION, and I'm so glad I did. The team not only provided top-notch medical care but also offered invaluable support and guidance throughout the entire process. I can't thank them enough for their compassion and expertise.",
+    description:
+      "When my aging pet required specialized medical attention, I turned to SHIVISION, and I'm so glad I did. The team not only provided top-notch medical care but also offered invaluable support and guidance throughout the entire process. I can't thank them enough for their compassion and expertise.",
     userName: "Ritesh",
     subName: "Web-Designer",
   },

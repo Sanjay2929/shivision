@@ -19,9 +19,7 @@ const Footer = () => {
             />
           </Link>
           <p className="font-normal text-sm sm:text-base text-dark text-opacity-70 pt-4 pb-10">
-            Lorem ipsum dolor sit amet consectetur. Egestas mollis nisl aliquet
-            dignissim eu aliquam sit. Praesent nulla massa habitasse lectus eu
-            arcu lorem. Senectus aliquam.
+          Shivision pioneers innovative solutions for animal welfare, blending excellence with sustainability. Join us in shaping a healthier future for all creatures.
           </p>
           <div className="flex gap-4">
             {socialLinks.map((value, index) => {
