@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { animals } from "../Helper";
 import Image from "next/image";
 import { Cross } from "../Icons";
+import Link from "next/link";
 
 const AnimalHealth = () => {
   const [selectedAnimal, setSelectedAnimal] = useState(null);
@@ -110,9 +111,12 @@ const AnimalHealth = () => {
                       {obj.description || obj.title}
                     </p>
                     {!obj.title && (
-                      <button className="py-1.5 px-3.5 border border-orange text-sm rounded-md opacity-70 hover:opacity-100 duration-500 hover:text-white hover:shadow-btnHover text-orange">
+                      <Link
+                        href="https://wa.me/+917218000880"
+                        className="py-1.5 px-3.5 border border-orange text-sm rounded-md opacity-70 hover:opacity-100 duration-500 hover:text-white hover:shadow-btnHover text-orange"
+                      >
                         Buy Now
-                      </button>
+                      </Link>
                     )}
                   </div>
                 </div>
