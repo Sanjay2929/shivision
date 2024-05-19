@@ -79,8 +79,8 @@ export const animals = [
     title: "Calves",
     popupContent: [
       {
-        img: "/assets/images/show-case/product-2.png",
-        description: "Lacmin [ 1kg,5kg,20kg ]",
+        img: "/assets/images/show-case/product-5.png",
+        description: "Calf m-29 [ 500ml 5litter ]",
       },
     ],
   },
