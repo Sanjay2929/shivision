@@ -65,10 +65,6 @@ export const animals = [
         description: "Chelated Lacmilk  [ 5litter 20litter ]",
       },
       {
-        img: "/assets/images/show-case/product-5.png",
-        description: "Calf m-29 [ 500ml 5litter ]",
-      },
-      {
         img: "/assets/images/show-case/product-6.png",
         description: "Lacmilk advance gel [ 300ml ] ",
       },
