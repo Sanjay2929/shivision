@@ -15,10 +15,10 @@ const Navbar = () => {
   let [isOpen, setIsOpen] = useState(false);
   const [navShow, setNavShow] = useState(false);
   const scrollOverflowHandler = () => {
-    document.body.classList.toggle("overflow-hidden");
+    document.body.classList.toggle("!overflow-hidden");
   };
   const scrollRemoveHandler = () => {
-    document.body.classList.remove("overflow-hidden");
+    document.body.classList.remove("!overflow-hidden");
   };
   return (
     <div className="shadow-[0px_4px_20.4px_0px_#0000001F] border-b border-orange py-3 rounded-2xl bg-white">
