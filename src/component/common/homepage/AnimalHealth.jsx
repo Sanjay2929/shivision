@@ -82,14 +82,14 @@ const AnimalHealth = () => {
               <Cross />
             </button>
             <div
-              className={`flex min-w-[250px] overflow-x-auto animal_health items-center gap-5 ${
-                selectedAnimal.title === "Cattle & Buffalo" ? "pb-5" : ""
+              className={`flex min-w-[250px] animal_health items-center gap-5 ${
+                selectedAnimal.title === "Cattle & Buffalo" ? "pb-5 overflow-x-auto" : ""
               }`}
             >
               {selectedAnimal.popupContent.map((obj, index) => (
                 <div
                   key={index}
-                  className="flex flex-col justify-center w-full"
+                  className={`flex flex-col justify-center w-full`}
                 >
                   <div className="min-w-[270px] h-full">
                     {obj.img && (
