@@ -5,7 +5,7 @@ import "../../public/assets/css/main.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: "https://shivision.vercel.app ",
+  metadataBase: "https://shivisionlifescience.com/",
   title: "Shivision",
   description: "Optimizing Animal Health & Performance Sustainable Solutions",
   openGraph: {
